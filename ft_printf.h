@@ -14,9 +14,7 @@
 # define FT_PRINTF_H
 # include <unistd.h>
 # include <stdarg.h>
-# include <stdint.h>
-# include <stdlib.h>
-# include <limits.h>
+# include <stddef.h>
 
 int	ft_strlen(const char *str);
 int	ft_putstr(char *s);
@@ -25,5 +23,6 @@ int	ft_putchar(char c);
 int	ft_putunsignednbr(unsigned long n);
 int	ft_dec_tohexa(unsigned long n, char c);
 int	ft_dec_tohexa_p(void *p);
+int	ft_printf(const char *s, ...);
 
 #endif 

@@ -41,11 +41,15 @@ int	ft_printf(const char *s, ...)
 
 	va_start(ap, s);
 	count = 0;
+	if (!s)
+		return (-1);
 	while (*s)
 	{
 		if (*s == '%')
 		{
 			s++;
+			if (*s == '\0')
+				break ;
 			count += handleformats(*s, &ap);
 		}
 		else

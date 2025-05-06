@@ -19,7 +19,7 @@ int	ft_dec_tohexa(unsigned long n, char c)
 
 	count = 0;
 	if (c == 'x')
-		og_hexa_hexa = "0123456789abcdef";
+		og_hexa = "0123456789abcdef";
 	else if (c == 'X')
 		og_hexa = "0123456789ABCDEF";
 	if (n >= 16)
