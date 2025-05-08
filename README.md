@@ -11,8 +11,6 @@ This project is a recreation of the standard `printf` function in C, with suppor
 
 ## ✨ Features
 - Supports basic conversions: `%c`, `%s`, `%d`, `%i`, `%u`, `%x`, `%X`, `%p`, `%%`
-- Handles flags: `-`, `0`, `*`, `.`, `#`, ` ` (space), `+`
-- Bonus: Extended support for custom conversions (e.g., `%b` for binary, `%f` for floats)
 - Fully compliant with **42 School's** `libft` for seamless integration
 - Memory-efficient and leak-free
 
